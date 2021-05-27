@@ -1,0 +1,234 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\sch-46431_b1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{AGILE_PN}\t{ASSY_OPT}\t{}\t{PRE_APN}\t{Reference}")
+    (BOM_Header "Item\tQuantity\tAgilePN\tASSY_OPT\tFIND#\tPRE_APN\tReference")
+    (BOM_Include_File
+       "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\nxf27622\OneDrive - NXP\Board Solutions\46431_LPC55S16-EVK\Layout\LAY-46431_B1\LAY-46431_B1.brd")
+    ("Allegro Netlist Output Board File" "allegro\SCH-46431_B1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File" "allegro\SCH-46431_B1.brd")
+    ("Allegro Backannotation Netlist Directory" "allegro")
+    ("Allegro Backannotation Output File" "allegro\SCH-46431_B1.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Output Warnings" "FALSE"))
+  (Folder "Outputs"
+    (File ".\sch-46431_b1.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\sch-46431_b1.swp"
+      (Type "Report")
+      (DisplayName "SCH-46431_B1.swp")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\nxf27622\OneDrive - NXP\Board Solutions\46431_LPC55S16-EVK\Schematics\SCH-46431_B1\sch-46431_b1.dsn")
+      (Path "Design Resources"
+         "C:\Users\nxf27622\OneDrive - NXP\Board Solutions\46431_LPC55S16-EVK\Schematics\SCH-46431_B1\sch-46431_b1.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 924"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1847 208 699")
+        (Scroll "0 0")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01 - TITLE, TOC & REV"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 1873 234 725")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02 - Block Diagram"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1639 0 491")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03 - System Power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1665 26 517")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04 - Peripheral"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1691 52 543")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05 - Codec"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1717 78 569")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "06 - Other Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1743 104 595")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "07 - B2B Interface"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1769 130 621")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "08 - Link2 MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1795 156 647")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "09 - Link2 SWD"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1821 182 673")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "10 - Link2 ISP"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1847 208 699")
+        (Scroll "1372 482")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "11 - LPC55S16"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 234 1873 234 725")
+        (Scroll "-179 0")
+        (Zoom "48")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\NXF27622\ONEDRIVE - NXP\BOARD SOLUTIONS\46431_LPC55S16-EVK\SCHEMATICS\SCH-46431_B1\SCH-46431_B1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "12 - Jumper & DNP Table")))
+  (PartMRUSelector)
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "nxf27622"))
