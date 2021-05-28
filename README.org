@@ -1,2 +1,7 @@
-# LPC5514-USB-Extend
+* LPC5514-USB-Extend
+** Function
+Create a board which integrated with CMSIS DAP interface for cortex MCU debugging, and extend with common digital interface, like I2C, SPI, UART, CAN, ADC, and GPIO(Including normal input and output function, also can working at bitbang mode, like FT232H chip).
+
+** Hardware Architecture
+
 
