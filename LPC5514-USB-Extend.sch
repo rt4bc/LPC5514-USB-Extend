@@ -53,7 +53,7 @@ L Device:R_Small R2
 U 1 1 60B016C7
 P 2230 1180
 F 0 "R2" V 2200 1310 50  0000 C CNN
-F 1 "DNP" V 2200 1020 50  0000 C CNN
+F 1 "5K1" V 2200 1020 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2230 1180 50  0001 C CNN
 F 3 "~" H 2230 1180 50  0001 C CNN
 	1    2230 1180
@@ -64,7 +64,7 @@ L Device:R_Small R1
 U 1 1 60B0392E
 P 2220 1280
 F 0 "R1" V 2190 1410 50  0000 C CNN
-F 1 "5K1" V 2190 1130 50  0000 C CNN
+F 1 "DNP" V 2190 1130 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2220 1280 50  0001 C CNN
 F 3 "~" H 2220 1280 50  0001 C CNN
 	1    2220 1280
@@ -100,16 +100,14 @@ F 3 "" H 2440 1180 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2330 1180 2440 1180
-NoConn ~ 2030 1480
-NoConn ~ 2030 1680
 Wire Wire Line
-	2470 1580 2030 1580
+	2470 1480 2030 1480
 Wire Wire Line
-	2470 1780 2030 1780
-Text Label 2160 1580 0    50   ~ 0
-USB_DM
-Text Label 2170 1780 0    50   ~ 0
-USB_DP
+	2470 1680 2030 1680
+Text Label 2160 1480 0    50   ~ 0
+USB1_DM
+Text Label 2170 1680 0    50   ~ 0
+USB1_DP
 $Comp
 L power:GND #PWR07
 U 1 1 60B0B3FB
@@ -268,11 +266,6 @@ F 3 "" H 3390 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3560 1010 3390 1010
-Wire Wire Line
-	3390 1010 3390 1040
-Wire Wire Line
-	3390 1010 3390 1000
-Connection ~ 3390 1010
 $Comp
 L power:GND #PWR031
 U 1 1 60BE6387
@@ -308,8 +301,6 @@ F 3 "~" H 3110 1200 50  0001 C CNN
 	1    3110 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3380 1010 3110 1010
 Wire Wire Line
 	3110 1010 3110 1050
 $Comp
@@ -389,7 +380,6 @@ F 3 "" H 4650 1010 50  0001 C CNN
 	1    4650 1010
 	1    0    0    -1  
 $EndComp
-Connection ~ 4650 1010
 Wire Wire Line
 	4300 1320 4300 1370
 Wire Wire Line
@@ -515,8 +505,6 @@ F 3 "~" H 4890 1010 50  0001 C CNN
 	1    4890 1010
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4660 1010 4790 1010
 Wire Wire Line
 	4990 1010 5110 1010
 Wire Wire Line
@@ -912,7 +900,7 @@ U 1 1 60CAB682
 P 3490 7240
 F 0 "L1" V 3540 7070 50  0000 C CNN
 F 1 "4.7uH" V 3440 7220 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3490 7240 50  0001 C CNN
+F 2 "Inductor_SMD:L_Wuerth_MAPI-2512" H 3490 7240 50  0001 C CNN
 F 3 "~" H 3490 7240 50  0001 C CNN
 	1    3490 7240
 	0    -1   -1   0   
@@ -1574,9 +1562,9 @@ Wire Wire Line
 	9570 1170 9780 1170
 Wire Wire Line
 	9570 1370 9780 1370
-Text Label 9570 1170 0    50   ~ 0
-CANH
 Text Label 9570 1370 0    50   ~ 0
+CANH
+Text Label 9570 1170 0    50   ~ 0
 CANL
 Text Notes 9570 950  0    50   Italic 10
 CAN FD Interface
@@ -2144,4 +2132,16 @@ Wire Wire Line
 	7460 3100 7560 3100
 Wire Wire Line
 	7560 3100 7560 2910
+Wire Wire Line
+	3390 1000 3390 1010
+Wire Wire Line
+	3110 1010 3390 1010
+Connection ~ 3390 1010
+Wire Wire Line
+	3390 1010 3390 1040
+Wire Wire Line
+	4790 1010 4650 1010
+Connection ~ 4650 1010
+NoConn ~ 2030 1580
+NoConn ~ 2030 1780
 $EndSCHEMATC
