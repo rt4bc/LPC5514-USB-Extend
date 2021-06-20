@@ -711,15 +711,13 @@ Wire Wire Line
 Text Label 3240 3360 1    39   ~ 0
 USB0_VBUS_3V3
 Wire Wire Line
-	3240 2920 3240 3380
+	3240 2920 3240 3240
 Text Label 2340 7100 1    39   ~ 0
 USB1_DP
 Text Label 2440 7100 1    39   ~ 0
 USB1_DM
 Text Label 2540 7100 1    39   ~ 0
 USB1_VBUS
-Wire Wire Line
-	2540 6780 2540 7100
 $Comp
 L power:+3.3V #PWR023
 U 1 1 60C62B80
@@ -1828,14 +1826,14 @@ Wire Wire Line
 	7190 4960 7190 5000
 Text Label 4170 5580 2    39   ~ 0
 FC3_SCK
-Text Label 6570 4360 0    39   ~ 0
-FC3_RTS_SCL_SSEL1
 Text Label 6570 4460 0    39   ~ 0
+FC3_RTS_SCL_SSEL1
+Text Label 6570 4360 0    39   ~ 0
 FC3_CTS_SDA_SSEL0
 Wire Wire Line
-	6570 4360 7190 4360
-Wire Wire Line
 	6570 4460 7190 4460
+Wire Wire Line
+	6570 4360 7190 4360
 Text Label 6570 4660 0    39   ~ 0
 FC3_RXD_SDA_MOSI
 Text Label 6570 4560 0    39   ~ 0
@@ -1958,8 +1956,6 @@ F 3 "" H 7690 2690 50  0001 C CNN
 	1    7690 2690
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7560 2900 7690 2900
 Wire Wire Line
 	7690 2900 7690 2690
 $Comp
@@ -2126,12 +2122,7 @@ Wire Wire Line
 Wire Wire Line
 	7560 2700 7560 2900
 Wire Wire Line
-	7460 2900 7560 2900
-Connection ~ 7560 2900
-Wire Wire Line
 	7460 3100 7560 3100
-Wire Wire Line
-	7560 3100 7560 2910
 Wire Wire Line
 	3390 1000 3390 1010
 Wire Wire Line
@@ -2144,4 +2135,127 @@ Wire Wire Line
 Connection ~ 4650 1010
 NoConn ~ 2030 1580
 NoConn ~ 2030 1780
+Text Label 2540 3050 3    39   ~ 0
+CAN_STB
+Wire Wire Line
+	2540 3380 2540 3050
+$Comp
+L Device:Ferrite_Bead_Small DNP1
+U 1 1 60D22786
+P 2410 7260
+F 0 "DNP1" V 2360 7210 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 2264 7260 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2340 7260 50  0001 C CNN
+F 3 "~" H 2410 7260 50  0001 C CNN
+	1    2410 7260
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2540 7260 2510 7260
+Wire Wire Line
+	2540 6780 2540 7260
+$Comp
+L power:+5VA #PWR0101
+U 1 1 60D379FF
+P 2270 7260
+F 0 "#PWR0101" H 2270 7110 50  0001 C CNN
+F 1 "+5VA" V 2330 7370 50  0000 C CNN
+F 2 "" H 2270 7260 50  0001 C CNN
+F 3 "" H 2270 7260 50  0001 C CNN
+	1    2270 7260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2270 7260 2310 7260
+$Comp
+L Device:R_Small R12
+U 1 1 60D68422
+P 3940 3280
+F 0 "R12" H 4020 3230 50  0000 C CNN
+F 1 "10K" H 4040 3310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3940 3280 50  0001 C CNN
+F 3 "~" H 3940 3280 50  0001 C CNN
+	1    3940 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 60D6B3D9
+P 3940 3530
+F 0 "R13" H 4020 3480 50  0000 C CNN
+F 1 "20K" H 4040 3560 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3940 3530 50  0001 C CNN
+F 3 "~" H 3940 3530 50  0001 C CNN
+	1    3940 3530
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60D6D367
+P 3940 3660
+F 0 "#PWR0102" H 3940 3410 50  0001 C CNN
+F 1 "GND" H 3945 3487 50  0000 C CNN
+F 2 "" H 3940 3660 50  0001 C CNN
+F 3 "" H 3940 3660 50  0001 C CNN
+	1    3940 3660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3940 3630 3940 3660
+Wire Wire Line
+	3940 3380 3940 3400
+$Comp
+L power:+5V #PWR0103
+U 1 1 60D8D0A9
+P 3940 3140
+F 0 "#PWR0103" H 3940 2990 50  0001 C CNN
+F 1 "+5V" H 3955 3313 50  0000 C CNN
+F 2 "" H 3940 3140 50  0001 C CNN
+F 3 "" H 3940 3140 50  0001 C CNN
+	1    3940 3140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3940 3140 3940 3180
+Wire Wire Line
+	3940 3400 3500 3400
+Wire Wire Line
+	3500 3400 3500 3240
+Wire Wire Line
+	3500 3240 3240 3240
+Connection ~ 3940 3400
+Wire Wire Line
+	3940 3400 3940 3430
+Connection ~ 3240 3240
+Wire Wire Line
+	3240 3240 3240 3380
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60DAF984
+P 1940 3070
+F 0 "TP1" H 1870 3260 50  0000 L CNN
+F 1 "TestPoint" H 1998 3097 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2140 3070 50  0001 C CNN
+F 3 "~" H 2140 3070 50  0001 C CNN
+	1    1940 3070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60DB8BF6
+P 2040 3070
+F 0 "TP2" H 1970 3260 50  0000 L CNN
+F 1 "TestPoint" H 2098 3097 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2240 3070 50  0001 C CNN
+F 3 "~" H 2240 3070 50  0001 C CNN
+	1    2040 3070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7460 2900 7560 2900
+Wire Wire Line
+	7560 3100 7560 2900
+Connection ~ 7560 2900
+Wire Wire Line
+	7560 2900 7690 2900
 $EndSCHEMATC
