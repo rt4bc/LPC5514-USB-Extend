@@ -20,7 +20,8 @@ P 1780 7440
 F 0 "Y1" H 1440 7310 50  0000 L CNN
 F 1 "16MHz" H 1430 7230 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 1780 7440 50  0001 C CNN
-F 3 "~" H 1780 7440 50  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20171013/C124322_15078985210081032928.pdf" H 1780 7440 50  0001 C CNN
+F 4 "C521588" H 1780 7440 50  0001 C CNN "PN_JLC"
 	1    1780 7440
 	1    0    0    -1  
 $EndComp
@@ -30,8 +31,9 @@ U 1 1 60AFDE48
 P 1430 1580
 F 0 "J1" H 1537 2355 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1537 2356 50  0001 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1580 1580 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1580 1580 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1580 1580 50  0001 C CNN
+F 4 "TYPE-C-31-M-12" H 1430 1580 50  0001 C CNN "PN_JLC"
 	1    1430 1580
 	1    0    0    -1  
 $EndComp
@@ -239,6 +241,7 @@ F 0 "U2" H 3860 1252 50  0000 C CNN
 F 1 "AP1117-33" H 3860 1161 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3860 1210 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 3960 760 50  0001 C CNN
+F 4 "AP1117E33G-13" H 3860 1010 50  0001 C CNN "PN_JLC"
 	1    3860 1010
 	1    0    0    -1  
 $EndComp
@@ -982,7 +985,8 @@ P 4640 5960
 F 0 "Y2" H 4770 5840 50  0000 L CNN
 F 1 "32.768KHz" H 4770 5910 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" H 4640 5960 50  0001 C CNN
-F 3 "~" H 4640 5960 50  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20171013/C124322_15078985210081032928.pdf" H 4640 5960 50  0001 C CNN
+F 4 "C117875" H 4640 5960 50  0001 C CNN "PN_JLC"
 	1    4640 5960
 	1    0    0    -1  
 $EndComp
@@ -1356,6 +1360,7 @@ F 0 "U3" H 7340 1620 50  0000 C CNN
 F 1 "TJA1042T-3" H 7980 900 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7680 760 50  0001 C CIN
 F 3 "http://www.nxp.com/documents/data_sheet/TJA1042.pdf" H 7680 1260 50  0001 C CNN
+F 4 "TJA1042T/3/1J" H 7680 1260 50  0001 C CNN "PN_JLC"
 	1    7680 1260
 	1    0    0    -1  
 $EndComp
